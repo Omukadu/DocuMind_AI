@@ -1,0 +1,29 @@
+# Dependencies
+client/node_modules/
+server/node_modules/
+
+# Environment files
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Keep example env files tracked
+!client/.env.example
+!server/.env.example
+
+# Build outputs
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
